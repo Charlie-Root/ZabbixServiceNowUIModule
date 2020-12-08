@@ -1,0 +1,13 @@
+# Zabbix ServiceNow UI Module
+
+Because it is not desirable in all situations to automatically create (all) problems as a case, this UI module adds an option to the Problem overview. Under the "Close" box is now a "Create Case" option where a case is immediately created and the most relevant data is forwarded to ServiceNow.
+
+## Requirements
+Zabbix 5.2
+php7
+php7-curl
+
+## Credits
+
+ServiceNow API from:
+https://github.com/geomtech/Service-Now-PHPClient

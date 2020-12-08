@@ -1,0 +1,21 @@
+{
+    "manifest_version": 1.0,
+    "id": "zabbix_servicenow",
+    "name": "ServiceNow Integration",
+    "version": "1.1",
+    "namespace": "ProblemView",
+    "author": "Wieger Bontekoe - Telindus-ISIT",
+    "url": "https://telindus.nl",
+    "description": "Add create case checkbox to problem view.",
+    "actions": {
+        "popup.acknowledge.edit": {
+            "class": "CControllerPopupAcknowledgeEdit",
+            "view": "acknowledge.edit",
+            "layout": "layout.json"
+        },
+        "popup.acknowledge.create": {
+            "class": "CControllerPopupAcknowledgeCreate",
+            "layout": "layout.json"
+        }
+    }
+}
