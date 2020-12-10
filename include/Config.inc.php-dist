@@ -1,0 +1,6 @@
+<?php
+define("SN_INSTANCE", "");
+define("SN_USERNAME", "");
+define("SN_PASSWORD", "");
+define("SN_TABLE", "incidents");
+?>
