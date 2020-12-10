@@ -10,6 +10,7 @@
 **
 **/
 namespace Modules\ProblemView;
+require_once("include/Config.inc.php");
 require_once("include/ServiceNow.inc.php");
 use APP;
 use CController as CAction;

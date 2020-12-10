@@ -60,17 +60,23 @@ class CControllerPopupAcknowledgeCreate extends CAction {
 	/**
 	 * @var string
 	 */
-	private $sn_instance = 'xxx';
+	private $sn_instance = SN_INSTANCE;
 
 	/**
 	 * @var string
 	 */
-	private $sn_user = 'xxx';
+	private $sn_user = SN_USERNAME;
 
 	/**
 	 * @var string
 	 */
-	private $sn_password = 'xxx';
+	private $sn_password = SN_PASSWORD;
+
+	/**
+	 * @var string
+	 */
+	private $sn_table = SN_TABLE;
+
 
 	function cmp($a, $b, $field)
 	{
